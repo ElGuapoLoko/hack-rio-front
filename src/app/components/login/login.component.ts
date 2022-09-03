@@ -36,7 +36,7 @@ export class LoginComponent implements OnInit, OnDestroy {
     }
 
     login(): void {
-        this.router.navigate(['/start'])
+        this.router.navigate(['/articles'])
     }
 
 }
